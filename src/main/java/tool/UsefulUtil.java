@@ -34,36 +34,27 @@ public class UsefulUtil {
     }
 
     public static void main(String[] args) {
-//        String source = "873\n" +
-//                "1407\n" +
-//                "1\n" +
-//                "6298\n" +
-//                "589\n" +
-//                "12880\n" +
-//                "6350\n" +
-//                "1201\n" +
-//                "21238\n" +
-//                "21030\n" +
-//                "21031\n" +
-//                "17457\n" +
-//                "110\n" +
-//                "2\n" +
-//                "279\n" +
-//                "982\n" +
-//                "18748\n" +
-//                "24276\n" +
-//                "706\n" +
-//                "26000\n" +
-//                "44399";
-//        String split = ",";
-//        String result = splitData(source, split);
-//        if (result.endsWith(",")) {
-//            result = result.substring(0, result.length() - 2);
-//        }
-//        System.out.println(result);
+        String source = "160115002240293067\n" +
+                "161221105125323938\n" +
+                "171209153635000000\n" +
+                "180504151609000002\n" +
+                "180516113704000002\n" +
+                "190114120336000000\n" +
+                "190214201936000000\n" +
+                "190220161952000000\n" +
+                "190603163542262148\n" +
+                "190610182822262144\n" +
+                "190725153842000001\n" +
+                "190829181107000000";
+        String split = ",";
+        String result = splitData(source, split);
+        if (result.endsWith(",")) {
+            result = result.substring(0, result.length() - 2);
+        }
+        System.out.println(result);
 
 //        print();
-        String l = "23201910151018352108010";
-        System.out.println(Long.valueOf(l));
+//        String l = "23201910151018352108010";
+//        System.out.println(Long.valueOf(l));
     }
 }
